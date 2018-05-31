@@ -1764,6 +1764,9 @@
     .xrhead_bottom .xrhead_bottomB .xrhead_bottomLeft .t_num i{
         width: 30px;
     }
+    .step .chengdan .text_right p:last-child{
+        text-align: left;
+    }
     /*.swiper-container img {*/
         /*width:;*/
     /*}*/
