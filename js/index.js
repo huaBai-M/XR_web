@@ -555,5 +555,12 @@ $(function () {
         })
     })
 
-
+// 移动端展开的导航和页面大小一般大
+    if($(document.body).width()<768){
+        var screenHeight = $(window).height();
+        console.log(screenHeight);
+        $('.navbar-nav').height(screenHeight);
+        $('.navbar-nav').css('overflowerY','hidden');
+        // console.log($('.navbar-nav').height());
+    }
 })
