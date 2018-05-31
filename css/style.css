@@ -1302,7 +1302,7 @@
 }
 
 .map .xr_mainbox5 #map {
-    width: 700px;
+    width: 900px;
     height: 550px;
     float: left;
     position: relative;
@@ -1761,6 +1761,9 @@
     .cases {
         padding-bottom: 0.5rem;
     }
+    .xrhead_bottom .xrhead_bottomB .xrhead_bottomLeft .t_num i{
+        width: 30px;
+    }
     /*.swiper-container img {*/
         /*width:;*/
     /*}*/
@@ -1797,7 +1800,7 @@ body,html {
     margin:auto;
     z-index: 50;
     cursor: pointer;
-    right:0;
+    right:15px;
 }
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
     background:#dce0e4;
@@ -1815,7 +1818,7 @@ body,html {
     margin:auto;
     z-index: 50;
     cursor: pointer;
-    left: 0;
+    left: 15px;
 }
 .swiper-button-prev:hover,
 .swiper-button-next:hover{
