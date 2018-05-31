@@ -1733,9 +1733,31 @@
     }
     .xr_head .nav li .nav_tow a {
         color: #fff;
+        border-bottom: none;
     }
-
-
+    .xr_head .navbar-nav > li > a{
+        border-bottom: 1px solid #ccc;
+    }
+    .xr_head .navbar-collapse{
+        position: absolute;
+        left:-1px;
+        top:50px;
+        width:101%;
+        z-index: 99999;
+    }
+    .navbar-nav{
+        background-color: #fff;
+    }
+    .xr_head .nav li .nav_tow{
+        margin-bottom: -20px;
+    }
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+       margin: 0;
+    }
     .swiper-container{
         height:100%;
         margin-top: 0.5rem;
@@ -1761,15 +1783,15 @@
     .cases {
         padding-bottom: 0.5rem;
     }
+    /*.swiper-container img {*/
+        /*width:;*/
+    /*}*/
     .xrhead_bottom .xrhead_bottomB .xrhead_bottomLeft .t_num i{
         width: 30px;
     }
     .step .chengdan .text_right p:last-child{
         text-align: left;
     }
-    /*.swiper-container img {*/
-        /*width:;*/
-    /*}*/
 }
 .map  .wayboo_mapRight {
     float: left;
